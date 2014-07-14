@@ -1,0 +1,68 @@
+
+
+
+.logo{
+	width: 100%;
+	float: left;
+	margin-top: 24px;
+
+}
+
+.clear{
+	clear: both;
+}
+
+
+
+
+
+.text_left{
+	border-left: 1px solid;
+}
+
+.feature_holder_left{
+	float: left;
+	width: 75%;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-left: 1px solid #ddd;
+	margin-bottom: 20px;
+	padding: 3%;
+}
+
+.feature_holder_right{
+	float: left;
+	width: 75%;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right: 1px solid #ddd;
+	margin-bottom: 20px;
+	padding: 3%;
+
+}
+
+body{
+	padding-top: 50px;
+}
+
+.head_holder{
+	margin-bottom: 50px;
+}
+
+.image_holder{
+	margin-top: 20px;
+	float: left;
+	width: 25%;
+}
+
+.logo_holder{
+	margin-top: 30px;
+}
+
+.desc{
+	padding: 4%;
+}
+
+.feature_holder{
+	padding: 5%;
+}
