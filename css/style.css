@@ -8,6 +8,13 @@
 
 }
 
+.logo1{
+	width: 100%;
+	float: left;
+	margin-top: 124px;
+
+}
+
 .clear{
 	clear: both;
 }
@@ -43,6 +50,7 @@
 
 body{
 	padding-top: 50px;
+	height: 100%;
 }
 
 .head_holder{
