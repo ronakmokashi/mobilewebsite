@@ -91,7 +91,7 @@ body{
 .replace_container{
 	
 	/*margin-top: 10%;*/
-	/*margin-bottom: 10%;*/
+	margin-bottom: 10%;
 	height: 30px;
 }
 
@@ -106,5 +106,5 @@ body{
 }
 
 .border_padding{
-	padding: 5%;
+	padding: 2%;
 }
