@@ -116,3 +116,7 @@ body{
 .decor: {
 	text-decoration: none !important;
 }
+
+.mail{
+	margin-bottom: 20px;
+}
