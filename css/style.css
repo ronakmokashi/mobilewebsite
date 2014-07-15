@@ -108,3 +108,11 @@ body{
 .border_padding{
 	padding: 2%;
 }
+
+.collapse_holder{
+	padding: 4%;
+}
+
+.decor: {
+	text-decoration: none !important;
+}
