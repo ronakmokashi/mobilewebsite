@@ -85,3 +85,8 @@ h4{
 .navbar{
 	margin-bottom: 0px;
 }
+
+.navbar-default{
+	background-color: #13CA99;
+border-color: #13CA99;
+}
