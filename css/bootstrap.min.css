@@ -49,9 +49,11 @@ footer {
   /* position:fixed;*/
    left:0px;
    bottom:0px;
-   height:15px;
+   height:90px;
+   background-color: #10A26D;
    width:100%;
-   margin-top: 138px;
+   padding: 7%;
+   margin-top: 50px;
 }
 
 .responsive-video {

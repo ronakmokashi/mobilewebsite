@@ -83,6 +83,19 @@ body{
 
 }
 
+.footer_holder{
+	float: left;
+	width: 33%;
+}
+
+.footer_image{
+	width: 50%;
+}
+
+.footer_container{
+	/*padding: 7%;*/
+	/*height: 90px;*/
+}
 .replace{
 	width: 50%;
 
