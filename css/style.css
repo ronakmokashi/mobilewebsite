@@ -65,6 +65,8 @@ body{
 
 .logo_holder{
 	margin-top: 30px;
+	margin-bottom: 30px;
+
 }
 
 .desc{
@@ -75,3 +77,20 @@ body{
 	padding: 5%;
 }
 
+.replace_holder{
+	float: left;
+	width: 20%;
+
+}
+
+.replace{
+	width: 50%;
+
+}
+
+.replace_container{
+	
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 30px;
+}
