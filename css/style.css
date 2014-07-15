@@ -90,7 +90,21 @@ body{
 
 .replace_container{
 	
-	margin-top: 30px;
-	margin-bottom: 30px;
+	/*margin-top: 10%;*/
+	/*margin-bottom: 10%;*/
 	height: 30px;
+}
+
+.border_holder{
+	  border-top:1px solid #ddd;
+    padding:10px;
+    /*background:#dddddd;*/
+    /*border-top-left-radius:2px;*/
+/*border-top-right-radius:2px;*/
+/*border-bottom-right-radius:2px;*/
+/*border-bottom-left-radius:2px;*/
+}
+
+.border_padding{
+	padding: 5%;
 }
