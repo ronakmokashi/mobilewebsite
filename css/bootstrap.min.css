@@ -79,16 +79,16 @@ height: 100%;
  
 .btn-orange:hover, 
 .btn-orange:focus, 
-/*.btn-orange:active, */
-/*.btn-orange.active, */
+.btn-orange:active, 
+.btn-orange.active, 
 .open .dropdown-toggle.btn-orange { 
   color: #ffffff; 
   background-color: #F7581E; 
   border-color: #FF4600; 
 } 
  
-/*.btn-orange:active, */
-/*.btn-orange.active, */
+.btn-orange:active, 
+.btn-orange.active, 
 .open .dropdown-toggle.btn-orange { 
   background-image: none; 
 } 
@@ -104,12 +104,12 @@ fieldset[disabled] .btn-orange:hover,
 fieldset[disabled] .btn-orange:focus, 
 .btn-orange.disabled:active, 
 .btn-orange[disabled]:active, 
-/*fieldset[disabled] .btn-orange:active, 
+fieldset[disabled] .btn-orange:active, 
 .btn-orange.disabled.active, 
 .btn-orange[disabled].active, 
 fieldset[disabled] .btn-orange.active { 
   background-color: #FF4600; 
-  border-color: #FF4600; */
+  border-color: #FF4600; 
 } 
  
 .btn-orange .badge { 
