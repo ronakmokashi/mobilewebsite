@@ -108,6 +108,12 @@ h6{
 	border-radius: 0px;
 }
 
+.btn-default{
+	background-color: #505050;
+border-color: #ccc;
+color: white;
+}
+
 .panel{
 	border-radius: 0px;
 }
