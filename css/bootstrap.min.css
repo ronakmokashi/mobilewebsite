@@ -99,4 +99,18 @@ h6{
 	width: 80%;
 	margin-left: 10%;
 	margin-bottom: 2%;
+	border-radius: 0px;
+	box-shadow: none;
+}
+
+.btn{
+	border-radius: 0px;
+}
+
+.panel{
+	border-radius: 0px;
+}
+
+.panel-default{
+	border-radius: 0px;
 }
