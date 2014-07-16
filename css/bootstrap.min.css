@@ -88,5 +88,6 @@ h4{
 
 .container{
 	background-color: #13CA99;
-border-color: #13CA99;
+	border-color: #13CA99;
+	width: 100%;
 }
