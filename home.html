@@ -37,6 +37,50 @@
    	<script src="http://code.jquery.com/jquery.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
+    <script type="text/javascript">
+  window.reasons={
+    1:"Lorem1 Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    2:"Lorem2 Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    3:"Lorem3 Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  };
+  $(".generate_reason").click(function(e){
+    $(".generate_reason").text("What else can I use Linkwok for?")
+    var number=Math.floor((Math.random() * 3) + 1);
+    console.log(number)
+    reason=reasons[number];
+    $(".text-italic").fadeOut().text(reason).fadeIn();
+  });
+  $(document).ready(function(){
+    $("#rl1").addClass("active").fadeOut(600,function(){
+      // $(this).remove();
+      $("#rl2").addClass("active").fadeOut(600,function(){
+        // $(this).remove();
+        $("#rl3").addClass("active").fadeOut(600,function(){
+          // $(this).remove();
+          $("#rl4").addClass("active").fadeOut(600,function(){
+            // $(this).remove();
+            $("#rl5").addClass("active").fadeOut(600,function(){
+              // $(this).remove();
+              $("#rl6").addClass("active").fadeOut(600,function(){
+                // $(this).remove();
+                $("#rl7").addClass("active").fadeOut(600,function(){
+                  // $(this).remove();
+                  $(".replace_row").height(68);
+                  $(".gray_hr").css("margin-top","20px");
+                  $(".replace_holder").addClass("active");               
+                });                
+              });              
+            });            
+          });          
+        });        
+      });        
+    });
+    
+   
+
+  });
+  
+</script>
    </head>
  
   <body>
@@ -195,50 +239,7 @@
 
  <!-- footer -->
   
-<script type="text/javascript">
-  window.reasons={
-    1:"Lorem1 Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    2:"Lorem2 Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    3:"Lorem3 Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-  };
-  $(".generate_reason").click(function(e){
-    $(".generate_reason").text("What else can I use Linkwok for?")
-    var number=Math.floor((Math.random() * 3) + 1);
-    console.log(number)
-    reason=reasons[number];
-    $(".text-italic").fadeOut().text(reason).fadeIn();
-  });
-  $(document).ready(function(){
-    $("#rl1").addClass("active").fadeOut(600,function(){
-      // $(this).remove();
-      $("#rl2").addClass("active").fadeOut(600,function(){
-        // $(this).remove();
-        $("#rl3").addClass("active").fadeOut(600,function(){
-          // $(this).remove();
-          $("#rl4").addClass("active").fadeOut(600,function(){
-            // $(this).remove();
-            $("#rl5").addClass("active").fadeOut(600,function(){
-              // $(this).remove();
-              $("#rl6").addClass("active").fadeOut(600,function(){
-                // $(this).remove();
-                $("#rl7").addClass("active").fadeOut(600,function(){
-                  // $(this).remove();
-                  $(".replace_row").height(68);
-                  $(".gray_hr").css("margin-top","20px");
-                  $(".replace_holder").addClass("active");               
-                });                
-              });              
-            });            
-          });          
-        });        
-      });        
-    });
-    
-   
 
-  });
-  
-</script>
 
 
 
