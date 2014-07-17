@@ -159,6 +159,14 @@ body{
 	padding:10px;
 }
 
+#exampleInputEmail2{
+	width: 100%;
+	padding:10px;
+	margin: 0px;
+	margin-bottom: 20px;
+	border-radius: 0px;
+}
+
 #email-submit{
 	width: 40%;
 	float: right;
@@ -244,4 +252,17 @@ body{
 	color: #333;
 	margin-bottom: 0px;
 	margin-top: 5px;
+}
+
+.contacts{
+	width: 20%;
+	margin: 5%;
+}
+
+.font_weight{
+	font-weight: bolder;
+}
+
+.feature_margin{
+	margin-bottom: 10%;
 }
