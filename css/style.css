@@ -79,13 +79,22 @@ body{
 
 .replace_holder{
 	float: left;
-	width: 20%;
+	width: 14%;
 
+}
+
+.replace_holder i{
+	font-size: 20px;
 }
 
 .footer_holder{
 	float: left;
 	width: 33%;
+	padding: 5%;
+}
+
+.footer_holder i{
+	font-size:  30px;
 }
 
 .footer_image{
