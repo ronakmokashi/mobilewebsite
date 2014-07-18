@@ -273,9 +273,9 @@ body{
 }
 
 
-.play-btn img:hover {
+/*.play-btn img:hover {
     opacity: 1;
-}
+}*/
 
 
 .play-btn{
@@ -286,3 +286,11 @@ body{
 	
 }
 
+.vid{
+	padding: 3%;
+}
+
+.video-single{
+	overflow: hidden;
+	
+}
