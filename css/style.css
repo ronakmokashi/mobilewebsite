@@ -266,3 +266,26 @@ body{
 .feature_margin{
 	margin-bottom: 10%;
 }
+
+.play-btn img {
+    opacity: 0.5;
+    width: 50%;
+}
+
+
+.play-btn img:hover {
+    opacity: 1;
+}
+
+
+.play-btn{
+	position: absolute;
+	top: 333px;
+	left: 132px;
+	z-index: 1;
+	
+}
+
+.vid{
+	padding: 3%;
+}
