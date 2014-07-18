@@ -230,7 +230,7 @@ body{
 
 .replace_logo{
 	height: 75px;
-	width: 300px;
+	width: 100%;
 	overflow: hidden;
 	margin: 0 auto;
 	transform:scale(0);
